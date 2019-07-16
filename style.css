@@ -1,26 +1,26 @@
 @font-face {
     font-family: "Oaks";
-    src: url('/assets/typefaces/Oaks0.1.otf');
+    src: url('assets/typefaces/Oaks0.1.otf');
 }
 
 @font-face {
     font-family: "Kvetch-Regular";
-    src: url('/assets/typefaces/Kvetch-0.1-Regular.otf');
+    src: url('assets/typefaces/Kvetch-0.1-Regular.otf');
 }
 
 @font-face {
     font-family: "Kvetch-Bold";
-    src: url('/assets/typefaces/Kvetch-0.1-Bold.otf');
+    src: url('assets/typefaces/Kvetch-0.1-Bold.otf');
 }
 
 @font-face {
     font-family: "Kvetch-RegularItalic";
-    src: url('/assets/typefaces/Kvetch-01-RegularItalic.otf');
+    src: url('assets/typefaces/Kvetch-01-RegularItalic.otf');
 }
 
 @font-face {
     font-family: "Kvetch-BoldItalic";
-    src: url('/assets/typefaces/Kvetch-01-BoldItalic.otf');
+    src: url('assets/typefaces/Kvetch-01-BoldItalic.otf');
 }
 
 body {
