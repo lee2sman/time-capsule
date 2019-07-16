@@ -1,0 +1,10 @@
+sticky clock on the left
+
+countdown header static on bottom
+
+randomly placed 3 round buttons that are spinning
+rounded rectangle around clock
+
+title of project? floated top center
+
+pop-up X blocking out the capsule and showing to come back in 10 years
