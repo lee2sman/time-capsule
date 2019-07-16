@@ -27,6 +27,7 @@ for(var i = 0; i < infoButtons.length; i++)
 }
 
 //COUNTDOWN
+function displayTime(){
 let today = new Date();
 let revealDate = new Date("Apr 20, 2029 15:00:00");
 let timeinmilisec = revealDate.getTime() - today.getTime() ;
@@ -47,6 +48,12 @@ if (today >= revealDate){
   hoursClock = document.getElementById('hoursClock');
   hoursClock.innerHTML = remainingHrs + ' : ' + remainingMin + ' : ' + remainingSec + '</br> Hours';
 }
+}
+
+//runs once a sec
+setInterval(displayTime, 1000);
+
+//infinite scroll of text
 
 window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
