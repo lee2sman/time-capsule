@@ -52,10 +52,10 @@ if (today >= revealDate){
 } else {
 
   daysClock = document.getElementById('daysClock');
-  daysClock.innerHTML = numOfDays+'</br> Days';
+  daysClock.innerHTML = ' '+numOfDays+'</br> Days ';
 
   hoursClock = document.getElementById('hoursClock');
-  hoursClock.innerHTML = remainingHrs + ' : ' + remainingMin + ' : ' + remainingSec + '</br> Hours';
+  hoursClock.innerHTML = remainingHrs + ':' + remainingMin + ':' + remainingSec + '</br> Hours';
 }
 }
 
@@ -71,6 +71,5 @@ window.onscroll = function(ev) {
         div.innerHTML = '</br></br></br>This is a website for storing the work of seven time capsules created in 2019 over five weeks by a group of twenty-seven students from New Media, Math & Computer Science, and Graphic Design at Purchase College of the State University of New York. All of the final work from <a class="capsuleLinks" href="" alt="Studio 1">Studio 1</a>, <a class="capsuleLinks" href="" alt="Studio 2">Studio 2</a>, <a class="capsuleLinks" href="" alt="Studio 3">Studio 3</a>, <a class="capsuleLinks" href="" alt="Studio 4">Studio 4</a>, <a class="capsuleLinks" href="" alt="Studio 5">Studio 5</a>, <a class="capsuleLinks" href="" alt="Studio 6">Studio 6</a>, <a class="capsuleLinks" href="" alt="Studio 7">Studio 7</a> will be fully published &amp; accessible via this portal on April 20, 2029 at 15:00 EST.'
         div.className = 'main';
         document.body.appendChild(div)
-        console.log('hit bottom');
     }
 }
