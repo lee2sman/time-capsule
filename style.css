@@ -62,8 +62,9 @@ a:hover {
   position: fixed;
   width: 15vw;
   height: 15vw;
-  top: 10px;
-  left: 10px;
+  top: 2vw;
+  left: 2vw;
+  fill: red;
 }
 
 #star:hover {
@@ -73,14 +74,13 @@ a:hover {
 .infoButtons {
   width: 10vw;
   position: fixed;
-  border-radius: 50%;
   z-index: 900;
 }
 
 .infoButtons:hover{
-  /* color: rgba(255, 255, 255, 1); */
   border-radius: 50%;
-  box-shadow: 0px 0px 15px 15px rgba(0, 255, 0, .4);
+  box-shadow: inset 0px 0px 18vw rgba(0, 255, 0, .4);
+  cursor: pointer;
 }
 
 .capsuleLinks {
